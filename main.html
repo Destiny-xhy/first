@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<img src="images/1.jpg" alt="图破了" title="前端培训" id="img">
+
+
+<script>
+
+  //document:文档，表示整个html页面
+  // get Element By Id  :通过id获取元素
+  //参数：　字符串　　id
+  //返回值：　元素
+
+  //页面中的每一个标签都有一个对象与之对应，
+  //我们操作这个标签的时候，只需要操作这个对象就行了。
+  var element = document.getElementById("img");
+
+  //  console.log(element.title);
+  //  console.log(element.alt);
+  //  console.log(element.src);
+  element.title = "呵呵";
+  element.alt = "嘿嘿嘿";
+  element.src = "images/2.jpg";
+
+
+
+</script>
+
+</body>
+</html>
